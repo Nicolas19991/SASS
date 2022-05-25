@@ -1,0 +1,60 @@
+/*IMPORTS*/
+/*COLORES*/
+/*FONTS*/
+@import url(" https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+/*HEADER*/
+.header {
+  background-color: #212529; }
+
+.logob {
+  width: 200px;
+  position: relative;
+  right: 8px; }
+
+.logob[src$=".png"] {
+  filter: drop-shadow(3px 3px 8px white); }
+
+.h1_ {
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  left: 7px;
+  animation-duration: 1s;
+  animation-name: aparecer;
+  animation-iteration-count: 1; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.background-color {
+  background-color: #d15757; }
+
+/*BODY*/
+.body {
+  background-color: #000; }
+
+/*MAIN*/
+.navbar {
+  background-color: #212529; }
+
+.carrousel_h5 {
+  background-color: #d15757;
+  padding: 1px;
+  margin: 10px;
+  font-family: "Orbitron", sans-serif; }
+
+.p_carrousel {
+  font-family: monospace;
+  font-size: 17px; }
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 3rem; }
+
+.p_footer {
+  font-family: monospace; }

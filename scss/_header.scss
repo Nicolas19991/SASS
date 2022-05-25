@@ -1,0 +1,52 @@
+/*HEADER*/
+
+.header{
+    background-color:$color-seccion;
+    
+}
+
+.logob {
+    width: 200px;
+    position: relative;
+    right: 8px;
+}
+
+.logob[src$=".png"]{
+
+    filter: drop-shadow(3px 3px 8px rgb(255, 255, 255));
+}
+
+.h1_ {
+
+    font-family:$font-seccion;
+    position: relative;
+    left: 7px;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes aparecer {
+
+    
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+
+        opacity: 0;
+    }
+
+    
+    100% {
+
+        opacity: 1;
+    }
+}
+
+.background-color {
+
+    background-color:  $color-seccion2;
+}
